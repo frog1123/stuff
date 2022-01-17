@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <title>frogdude1123</title>
         <link rel="stylesheet" href="styles.css">
         <script src="index.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <center>
@@ -11,6 +15,15 @@
                 <img class="img1" src="assets/frog.jpg"/>
                 <img class="img2" src="assets/avatar frame.gif"/>
             </div>
+            <div id="audio-controls">
+                <audio id="time-flies" loop>
+                    <source src="assets/time flies.mp3" type="audio/mp3">
+                </audio>
+                <img id="audio-box" src="assets/62x12.png"/>
+                <input type="button" id="playButton" class="audio-button" onclick="playAudio()"></button>
+                <input type="button" id="pauseButton" class="audio-button" onclick="pauseAudio()"></button>
+            </div>
+            &ensp;
             <div class="box1">
                 <img class="box" src="assets/200x100.png"/>
                 <h1 article class="title"><u>SOCIALS</u></h1>
@@ -40,12 +53,20 @@
                     <div class="social6">
                         <img class="social-tab5 social-tab" src="assets/90x20.png"/>
                         <img class="social-icon" src="assets/spotify icon.png"/>
-                        <h1 class="social-text">frogdude1213</h1><br>
+                        <h1 class="social-text">frogdude1123</h1><br>
                         <h3 class="social-subtext">musicdude1123 ?</h3>
                         <button class="social-button" onclick="window.open('https://open.spotify.com/user/ckenvyd4xokwet9bbir3hfxn9?si=bbda1b6ab230463b','_blank')"></button>
                     </div>
                     <img class="social-tab7 social-tab" src="assets/90x20.png"/>
                     <img class="social-tab8 social-tab" src="assets/90x20.png"/>
+                </div>
+            </div>
+            &ensp;
+            <div class="box2">
+                <img class="box" src="assets/200x100.png"/>
+                <h1 article class="title"><u>INFO</u></h1>
+                <div class="info-text-box">
+                    <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </center>
