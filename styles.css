@@ -5,7 +5,7 @@ body{
     background-size:cover;
     background-color: #262626;
 }
-h1, h2, h3, h4, h5, h6{
+p, h1, h2, h3, h4, h5, h6{
     color: white;
     font-family: Arial;
 }
@@ -30,10 +30,11 @@ h1, h2, h3, h4, h5, h6{
     bottom: 205px;
 }
 /* box */
-.box1{
+.box1, .box2{
     position: relative;
     display: grid;
     justify-content: center;
+    text-align: center;
     width: 80%;
     height: 80%;
 }
@@ -59,9 +60,9 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     z-index: 3;
     justify-content: center;
+    display: grid;
     grid-column: 1;
     grid-row: 1;
-    display: grid;
     grid-gap: 0.5em;
     width: 85%;
     height: 85%;
@@ -147,6 +148,18 @@ h1, h2, h3, h4, h5, h6{
     overflow: hidden;
     outline: none;
 }
+/* info */
+.info-text-box{
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+}
+.info-text{
+    position: absolute;
+    z-index: 2;
+    padding: 5% 2% 0 2%;
+    max-width: 1500px;
+}
 @media screen and (max-width: 2048px){
     .social-text{
         font-size: 40px;
@@ -198,5 +211,8 @@ h1, h2, h3, h4, h5, h6{
     .social-button{
         width: 20px;
         height: 20px;
+    }
+    .info-text{
+        font-size: 12px;
     }
 }
