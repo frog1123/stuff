@@ -1,18 +1,15 @@
 body{
-    background-image: url('background.png');
+    background-attachment: fixed;
+    background-image: url('assets/background.png');
     background-repeat:no-repeat;
     background-size:cover;
     background-color: #262626;
 }
-.white-text{
+h1, h2, h3, h4, h5, h6{
     color: white;
     font-family: Arial;
 }
-button{
-    background-color: white;
-    text-align: center;
-    font-size: 16px;
-}
+/* avatar */
 .avatar{
     position: relative;
     width: 250px;
@@ -32,14 +29,16 @@ button{
     height: 250px;
     bottom: 205px;
 }
+/* box */
 .box1{
-    display: grid;
     position: relative;
+    display: grid;
     justify-content: center;
     width: 80%;
     height: 80%;
 }
 .box{
+    position: relative;
     justify-content: center;
     position: relative;
     grid-column: 1;
@@ -47,27 +46,35 @@ button{
     width: 100%;
     height: 100%;
 }
+/* socials */
 .title{
     position: relative;
     grid-column: 1;
     grid-row: 1;
+    width: 100%;
+    height: 10%;
+    font-size: 250%;
 }
 .social-category{
-    justify-content: center;
     position: relative;
     z-index: 3;
+    justify-content: center;
     grid-column: 1;
     grid-row: 1;
     display: grid;
-    width: 100%;
-    height: 80%;
-    top: 15%;
+    grid-gap: 0.5em;
+    width: 85%;
+    height: 85%;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .social-tab{
-    width: 95%;
-    height: 95%;
+    width: 100%;    
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .social-tab1{
     grid-column: 1;
@@ -101,5 +108,95 @@ button{
     grid-column: 2;
     grid-row: 4;
 }
-
-
+/* social-tabs */
+.social1, .social2, .social5, .social6{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.social-icon{
+    position: absolute;
+    width: 20%;
+    left: 5%;
+}
+.social-text{
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    font-size: 40px;
+}
+.social-subtext{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-size: 20px; 
+}
+.social-button{
+    position: absolute;
+    z-index: 4;
+    width: 80px;
+    height: 80px;
+    left: 80%;
+    top: 17.5%;
+    background-image:url('assets/social button.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+@media screen and (max-width: 2048px){
+    .social-text{
+        font-size: 40px;
+    }
+    .social-subtext{
+        font-size: 20px;
+    }  
+} 
+@media screen and (max-width: 1536px){
+    .title{
+        font-size: 100%;
+    }
+    .social-text{
+        font-size: 30px;
+    }
+    .social-subtext{
+        font-size: 15px;
+    }
+    .social-button{
+        width: 40px;
+        height: 40px;
+    }   
+}
+@media screen and (max-width: 1280px){
+    .title{
+        font-size: 80%;
+    }
+    .social-text{
+        font-size: 18px;
+    }
+    .social-subtext{
+        font-size: 9px;
+    }
+    .social-button{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 60%;
+    }
+    .social-text{
+        font-size: 11px;
+    }
+    .social-subtext{
+        font-size: 5.5px;
+    }
+    .social-button{
+        width: 20px;
+        height: 20px;
+    }
+}
