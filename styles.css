@@ -62,8 +62,6 @@ p, h1, h2, h3, h4, h5, h6{
     position: absolute;
     width: min(30px, 50%);
     height: min(30px, 50%);
-    top: 25%;
-    left: 50%;
     transform: translate(-50%);
     background-size: 100% 100%;
     background-color: transparent;
@@ -72,17 +70,49 @@ p, h1, h2, h3, h4, h5, h6{
     cursor: pointer;
     overflow: hidden;
     outline: none;
+    top: 25%;
+    left: 50%;
 }
-#playButton{
-    background: url('assets/play.png');
+#play-button{
+    background: url('assets/audio/play.png');
     background-size: 100% 100%;
     display: block;
 }
-#pauseButton{
+#pause-button{
     
-    background: url('assets/pause.png');
+    background: url('assets/audio/pause.png');
     background-size: 100% 100%;
     display: none;
+}
+#forward-button{
+    position: absolute;
+    width: min(30px, 50%);
+    height: min(30px, 50%);
+    background: url('assets/audio/forward.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    left: 75%;
+    transform: translate(-50%, 50%);
+}
+#back-button{
+    position: absolute;
+    width: min(30px, 50%);
+    height: min(30px, 50%);
+    background: url('assets/audio/back.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    left: 25%;
+    transform: translate(-50%, 50%);
 }
 /* socials */
 .title{
