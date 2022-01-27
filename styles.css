@@ -77,12 +77,30 @@ p, h1, h2, h3, h4, h5, h6{
     background: url('assets/audio/play.png');
     background-size: 100% 100%;
     display: block;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#play-button:hover{
+    background: url('assets/audio/play hover.png');
+    background-size: 100% 100%;
+    display: block;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 #pause-button{
     
     background: url('assets/audio/pause.png');
     background-size: 100% 100%;
     display: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#pause-button:hover{
+    background: url('assets/audio/pause hover.png');
+    background-size: 100% 100%;
+    display: none;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 #forward-button{
     position: absolute;
@@ -98,6 +116,14 @@ p, h1, h2, h3, h4, h5, h6{
     outline: none;
     left: 75%;
     transform: translate(-50%, 50%);
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#forward-button:hover{
+    background: url('assets/audio/forward hover.png');
+    background-size: 100% 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 #back-button{
     position: absolute;
@@ -113,6 +139,14 @@ p, h1, h2, h3, h4, h5, h6{
     outline: none;
     left: 25%;
     transform: translate(-50%, 50%);
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+#back-button:hover{
+    background: url('assets/audio/back hover.png');
+    background-size: 100% 100%;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 /* socials */
 .title{
@@ -206,7 +240,7 @@ p, h1, h2, h3, h4, h5, h6{
     height: 80px;
     left: 80%;
     top: 17.5%;
-    background-image:url('assets/social button.png');
+    background-image:url('assets/social/social button.png');
     background-size: 100% 100%;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -216,7 +250,7 @@ p, h1, h2, h3, h4, h5, h6{
     outline: none;
 }
 .social-button:hover{
-    background-image:url('assets/social button hover.png');
+    background-image:url('assets/social/social button hover.png');
 }
 /* info */
 .info-text-box{
