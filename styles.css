@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p{
     background: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: block;
+    text-shadow: 0px 0px #00000000;
 }
 .gradient-border{
     border: 10px solid;
@@ -62,6 +62,9 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .cursor-pointer{
     cursor: pointer;
+}
+.aspect16-9{
+    aspect-ratio: 16/9;
 }
 #old-site{
     height: 40px;

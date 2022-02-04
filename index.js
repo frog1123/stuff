@@ -1,4 +1,4 @@
- // audio controls
+// audio controls
 function playAudio(){
     var audio = document.getElementById("time-flies");
     var playButton = document.getElementById("audio-play");
