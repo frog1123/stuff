@@ -92,47 +92,47 @@ h1, h2, h3, h4, h5, h6, p{
 #audio-play{
     width: 30px;
     height: 30px;
-    background-image: url(assets/svg/play.svg);
+    background-image: url(../assets/svg/play.svg);
     grid-column: 2;
     grid-row: 1;
 }
 #audio-play:hover{
-    background-image: url(assets/svg/hover/play.svg)
+    background-image: url(../assets/svg/hover/play.svg)
 }
 #audio-pause{
     width: 30px;
     height: 30px;
-    background-image: url(assets/svg/pause.svg);
+    background-image: url(../assets/svg/pause.svg);
     display: none;
     grid-column: 2;
     grid-row: 1;
 }
 #audio-pause:hover{
-    background-image: url(assets/svg/hover/pause.svg);
+    background-image: url(../assets/svg/hover/pause.svg);
     display: none;
 }
 #audio-back{
     width: 30px;
     height: 30px;
-    background-image: url(assets/svg/back.svg);
+    background-image: url(../assets/svg/back.svg);
     justify-self: left;
     grid-column: 1;
     grid-row: 1;
 }
 #audio-back:hover{
-    background-image: url(assets/svg/hover/back.svg)
+    background-image: url(../assets/svg/hover/back.svg)
 }
 #audio-forward{
     width: 30px;
     height: 30px;
-    background-image: url(assets/svg/forward.svg);
+    background-image: url(../assets/svg/forward.svg);
     transform: rotate(180deg);
     justify-self: right;
     grid-column: 3;
     grid-row: 1;
 }
 #audio-forward:hover{
-    background-image: url(assets/svg/hover/forward.svg)
+    background-image: url(../assets/svg/hover/forward.svg)
 }
 #profile{
     display: grid;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: flex-end;
     justify-content: center;
     aspect-ratio: 8/3;
-    background: url('assets/images/banner.png');
+    background: url('../assets/images/banner.png');
     background-size: 100% 100%;  
     background-repeat: no-repeat;
     grid-column: 1;
