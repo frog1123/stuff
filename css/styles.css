@@ -17,32 +17,31 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .gradient-text{
     background: #D9ED92;
+    background: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background: -webkit-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background: -moz-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
-    background: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px #00000000;
 }
 .gradient-border{
     border: 10px solid;
     border-image-slice: 1;
     border-width: 2px;
+    border-image-source: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     border-image-source: -webkit-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     border-image-source: -moz-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
-    border-image-source: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
 }
 .gradient{
+    background-image: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background-image: -webkit-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background-image: -moz-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
-    background-image: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
 }
 .line{
     z-index: 2;
     height: 2px;
+    background-image: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background-image: -webkit-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
     background-image: -moz-linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
-    background-image: linear-gradient(to right, #D9ED92 0%, #B5E48C 100%);
 }
 .big-text{
     font-size: 50px;
