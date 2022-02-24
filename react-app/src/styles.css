@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #262626;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+.gradient-text {
+  background: #d9ed92;
+  background: linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background: -webkit-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background: -moz-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-border {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  border-image-source: -webkit-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  border-image-source: -moz-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+}
+.gradient {
+  background-image: linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background-image: -webkit-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background-image: -moz-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+}
+.line {
+  z-index: 2;
+  height: 2px;
+  background-image: linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background-image: -webkit-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+  background-image: -moz-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
+}
+.big-text {
+  font-size: 50px;
+  margin: 0;
+}
+.title-text {
+  display: flex;
+  justify-content: center;
+}
+.img-fix {
+  background-size: 100% 100%;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  -webkit-appearance: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.aspect16-9 {
+  aspect-ratio: 16/9;
+}

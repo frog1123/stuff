@@ -1,24 +1,5 @@
 {
-  "name": "frogdude1123",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frog1123/frog1123.github.io.git"
-  },
-  "author": "frog1123",
-  "bugs": {
-    "url": "https://github.com/frog1123/frog1123.github.io/issues"
-  },
-  "homepage": "https://github.com/frog1123/frog1123.github.io#readme",
   "dependencies": {
-    "express": "^4.17.2"
-  },
-  "devDependencies": {},
-  "license": "ISC",
-  "description": ""
+    "create-react-app": "^5.0.0"
+  }
 }
