@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4672e62b.css",
+    "main.js": "/static/js/main.26cb4919.js",
+    "static/media/avatar frame.gif": "/static/media/avatar frame.f7ead4eec455cf2e7e6c.gif",
+    "static/media/banner.png": "/static/media/banner.e688decbfa0daf78b6a4.png",
+    "static/media/frog.jpg": "/static/media/frog.66a378825fe50ba21419.jpg",
+    "index.html": "/index.html",
+    "main.4672e62b.css.map": "/static/css/main.4672e62b.css.map",
+    "main.26cb4919.js.map": "/static/js/main.26cb4919.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4672e62b.css",
+    "static/js/main.26cb4919.js"
+  ]
+}
