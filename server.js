@@ -7,7 +7,7 @@ PORT = process.env.PORT || 9000;
 
 app.use(express.static(path.join(__dirname, 'react-app', 'build')));
 
-app.get('/', function (req, res) {
+app.get(function (req, res) {
   res.sendFile(path.join(__dirname, 'react-app', 'build', 'index.html'));
 });
 
