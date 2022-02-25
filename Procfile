@@ -1,1 +1,1 @@
-web: npm start --prefix react-app
+web:  node server.js
