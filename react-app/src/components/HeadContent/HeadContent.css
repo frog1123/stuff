@@ -10,7 +10,7 @@
 }
 #profile-container {
   display: grid;
-  width: 250px;
+  width: max-;
   height: max-content;
   grid-template-rows: auto 70px;
 }
@@ -31,7 +31,7 @@
   align-self: center;
 }
 #frogdude1123 {
-  width: 230px;
+  width: max-content;
   margin: 0;
   max-width: max-content;
   justify-self: center;
@@ -39,10 +39,7 @@
   grid-row: 2;
   background-color: #262626;
 }
-.frog-text {
-  position: relative;
-  font-weight: 800;
-}
+
 .frog-text h1 {
   font-size: 50px;
   position: absolute;

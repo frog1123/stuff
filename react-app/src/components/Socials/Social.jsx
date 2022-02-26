@@ -1,7 +1,6 @@
 import localStyles from "./Socials.css";
 
 const Social = (props) => {
-  console.log(`social${props.info.id}`);
   return (
     <button id={`social${props.info.id}`} className={(props.info.id, props.info.noLink ? "social-tab" : "social-tab cursor-pointer")} onClick={() => (props.info.noLink ? null : window.open(props.info.link, "_blank"))}>
       <div className='line'></div>
