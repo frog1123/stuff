@@ -7,7 +7,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div id='info' className='gradient-border'>
-        <h1 className='big-text title-text'>
+        <h1 className='title-text' style={{ fontSize: 50, margin: 0, fontWeight: 200 }}>
           <span className='gradient-text'>ABOUT ME</span>
         </h1>
         <p id='info-text'>

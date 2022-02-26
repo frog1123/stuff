@@ -10,15 +10,17 @@ class HeadContent extends Component {
     return (
       <div id='main'>
         <div id='profile'>
-          <div id='banner' className='gradient-border'>
-            <div id='avatar'>
+          <div id='banner'>
+            <div id='profile-container'>
               <img id='img1' src={frog} />
               <img id='img2' src={avatar_frame} />
-              <h1 id='frogdude1123' className='gradient-border'>
-                [frogdude1123]
-              </h1>
+              <div id='frogdude1123' className='frog-text'>
+                <h1>frogdude1123</h1>
+                <h1>frogdude1123</h1>
+              </div>
             </div>
           </div>
+          <div className='line' />
         </div>
       </div>
     );

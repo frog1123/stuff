@@ -15,6 +15,7 @@ function App() {
       <Socials/>
       <br/>
       <AboutMe/>
+      <br/>
     </React.Fragment>
   );
 }

@@ -26,7 +26,7 @@ class Socials extends Component {
   render() {
     return (
       <div id='socials' className='gradient-border'>
-        <h1 className='big-text title-text'>
+        <h1 className='title-text' style={{ fontSize: 50, margin: 0, fontWeight: 200 }}>
           <span className='gradient-text'>SOCIALS</span>
         </h1>
         <div id='socials-grid'>

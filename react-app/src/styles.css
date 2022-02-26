@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@100;200&display=swap");
+
 html {
   scroll-behavior: smooth;
   background-color: #262626;
+}
+body {
+  margin: 0;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -9,7 +14,6 @@ html {
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Poppins", sans-serif;
   color: white;
-  font-weight: 100;
 }
 .gradient-text {
   background: #d9ed92;
@@ -38,10 +42,6 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
   background-image: -webkit-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
   background-image: -moz-linear-gradient(to right, #d9ed92 0%, #b5e48c 100%);
-}
-.big-text {
-  font-size: 50px;
-  margin: 0;
 }
 .title-text {
   display: flex;
