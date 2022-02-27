@@ -1,6 +1,6 @@
 #list-containter {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 7px;
 }
 .list-button {
   width: 100px;

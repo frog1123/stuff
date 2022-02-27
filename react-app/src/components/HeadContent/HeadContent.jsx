@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // css
 import localStyles from "./HeadContent.css";
 // imports
-import frog from "../../../src/assets/images/frog.jpg";
+import frog from "../../../src/assets/images/frog.png";
 import avatar_frame from "../../../src/assets/images/avatar frame.gif";
 
 class HeadContent extends Component {
