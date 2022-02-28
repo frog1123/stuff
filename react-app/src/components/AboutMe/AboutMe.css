@@ -2,8 +2,33 @@
   height: max-content;
   width: 80%;
   margin: auto;
+  justify-content: center;
+}
+#container {
+  text-align: center;
 }
 #info-text {
   padding: 10px;
   font-weight: 200;
+}
+img {
+  width: 500px;
+}
+@media screen and (max-width: 600px) {
+  img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #info {
+    width: 90%;
+  }
+  img {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 420px) {
+  img {
+    width: 280px;
+  }
 }

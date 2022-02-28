@@ -2,7 +2,7 @@ import localStyles from "./Socials.css";
 import styles from "../../styles.css";
 const Social = (props) => {
   return (
-    <button id={`social${props.info.id}`} className={`social-tab ${(props.info.id, props.info.noLink ? null : "cursor-pointer")}`} onClick={() => (props.info.noLink ? null : window.open(props.info.link, "_blank"))}>
+    <div id={`social${props.info.id}`} className={`social-tab ${(props.info.id, props.info.noLink ? null : "cursor-pointer")}`} onClick={() => (props.info.noLink ? null : window.open(props.info.link, "_blank"))}>
       <div className='line'></div>
       <div className='social-tab-background'>
         <img className='social-icon' src={props.info.src} />
@@ -19,7 +19,7 @@ const Social = (props) => {
           <h3 className='social-bottom-text'>{props.info.bottomText}</h3>
         </div>
       </div>
-    </button>
+    </div>
   );
 };
 
